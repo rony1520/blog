@@ -6,8 +6,7 @@ This project focuses on **semantic HTML**, **modern CSS**, **accessibility**, an
 ---
 
 ## 🔗 Live Preview
-👉 https://rony1520.github.io/spicy-king-restaurant/  
-*(Replace link if needed)*
+👉 https://rony1520.github.io/blog
 
 ---
 
@@ -52,4 +51,4 @@ This project focuses on **semantic HTML**, **modern CSS**, **accessibility**, an
 ## 🚀 How to Use
 1. Clone the repository
    ```bash
-   git clone https://github.com/rony1520/spicy-king-restaurant.git
+   git clone https://github.com/rony1520/blog.git
