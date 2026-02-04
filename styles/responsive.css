@@ -1,0 +1,172 @@
+@media (max-width: 992px){
+#blog-banner-section{
+    flex-direction: column;
+}
+#blog-banner-section article{
+    width: 50%;
+    text-align: center;
+}
+#blog-banner-section aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about-me .card-container{
+    width: 60%;
+    flex-direction: column;
+    text-align: center;
+}
+#about-me .card{
+    width: 100%;
+}
+#contact-me #contact-form{
+    width: 100%;
+}
+
+}
+
+@media (max-width: 768px){
+    #blog-banner-section article {
+    width: 83%;
+}
+#blog-banner-section aside img {
+    width: 50rem;
+    height: 50rem;
+}
+#about-me .card-container {
+    width: 90%;
+}
+#archives {
+    height: auto;
+}
+#archives .card-container .card {
+    gap: 10px;
+}
+#archives .card-container .card img {
+    width: 20%;
+    height: 100px;
+}
+#blog-post .card{
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 2.8rem;
+}
+#blog-post .card .blog-img {
+    width: 100%;
+}
+#blog-post .card .blog-content {
+    width: 100%;
+}
+#contact-me #contact-form {
+    width: 100%;
+}
+}
+
+@media (max-width: 600px){
+    #contact-me{
+        padding: 2rem;
+    }
+
+    #contact-me .contact-shadow{
+        width: 100%;
+    }
+
+    #contact-me #contact-form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .hidden ul li{
+        display: none;
+    }
+    #menu-icon{
+    display: block;
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+    #blog-header {
+    flex-direction: column;
+    }
+    #menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .blog-heading {
+    font-size: 3rem;
+    /* margin-bottom: 1.9rem;*/
+    
+}
+.blog-description {
+    font-size: 1.6rem;
+}
+
+#blog-banner-section aside img {
+    width: 40rem;
+    height: 40rem;
+}
+#blog-banner-section article{
+     width: 90%;
+    margin-bottom: 1.5rem;
+}
+.section-heading {
+    font-size: 6rem;
+}
+#about-me .card-container {
+    width: 100%;
+}
+#archives .card-container .card{
+    width: 100%;
+    flex-direction: column;
+}
+#archives .card-container .card img{
+    width: 45rem;
+    height: 30rem;
+    margin-bottom: 1.9rem;
+}
+#blog-post .card {
+    width: 90%;
+}
+#contact-me #contact-form{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.4);
+    border-radius: 1rem;
+}
+#contact-me #contact-form .form-control{
+    flex-direction: column;
+}
+
+#contact-me #contact-form .form-control label {
+    margin-right: 0;
+    margin-bottom: 1rem;
+}
+#contact-me #contact-form .form-control input[type=submit] {
+    width: 15rem;
+}
+#contact-me #contact-form .form-control #message {
+    margin-right: 0px;
+}
+#footer{
+    flex-direction: column;
+}
+}
+@media (max-width: 400px){
+    body {
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+}
+#blog-header {
+    flex-direction: column;
+}
+#menu ul {
+    flex-direction: column;
+    text-align: center;
+}
+#contact-me {
+    padding: 1rem;
+}
+#contact-me #contact-form {
+    width: 90%;
+}
+}
+
